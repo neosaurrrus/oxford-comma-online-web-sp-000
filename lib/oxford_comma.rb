@@ -12,5 +12,5 @@ def oxford_comma(array)
     oxford_array.push(word << ", ")
     end
   end
-  puts oxford_array
+  oxford_array
 end
