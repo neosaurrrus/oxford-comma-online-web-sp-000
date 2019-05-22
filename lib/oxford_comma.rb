@@ -3,4 +3,5 @@ def oxford_comma(array)
   array.each do |word|
   oxford_array.push(word << ", ")
   end
+  oxford_array
 end
