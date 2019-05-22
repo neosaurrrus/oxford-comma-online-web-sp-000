@@ -8,7 +8,7 @@ def oxford_comma(array)
   oxford_array=[]
   array.each_with_index do |word, index|
 
-    if index + 1 == array.size
+    if index -2 == array.size
       oxford_array.push(word << ", and")
     else
     oxford_array.push(word << ", ")
