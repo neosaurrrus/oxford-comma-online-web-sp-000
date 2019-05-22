@@ -2,8 +2,13 @@ def oxford_comma(array)
   if array.size == 1
     return array[0]
   end
+
   oxford_array=[]
-  array.each do |word|
+  array.each_with_index do |word, index|
+
+  if index == array.size
+    oxford_array.push(word << ", and")
+  else
   oxford_array.push(word << ", ")
   end
   puts oxford_array
