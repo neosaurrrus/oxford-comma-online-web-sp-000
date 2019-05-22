@@ -6,10 +6,11 @@ def oxford_comma(array)
   oxford_array=[]
   array.each_with_index do |word, index|
 
-  if index == array.size
-    oxford_array.push(word << ", and")
-  else
-  oxford_array.push(word << ", ")
+    if index == array.size
+      oxford_array.push(word << ", and")
+    else
+    oxford_array.push(word << ", ")
+    end
   end
   puts oxford_array
 end
