@@ -11,7 +11,7 @@ def oxford_comma(array)
     if index+1 == array.size
       oxford_array.push(word)
     elsif index +2 == array.size
-      oxford_array.push(word << ", and")
+      oxford_array.push(word << ", and ")
     else
     oxford_array.push(word << ", ")
     end
