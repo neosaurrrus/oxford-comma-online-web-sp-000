@@ -4,7 +4,7 @@ def oxford_comma(array)
   end
   if array.size == 2
     return "#{array[0]} and #{array[1]}"
-
+  end
   oxford_array=[]
   array.each_with_index do |word, index|
 
